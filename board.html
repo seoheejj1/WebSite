@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="scripts/board.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <title>게시판</title>
+</head>
+<body>
+    <div class="mainwrap">    
+    </div>
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong style="color: #686037;">게시판</strong>
+            <span style="padding-left: 900px;">id:</span>
+            <span class="user_name" id="user_name1">로그인을 해주세요.
+            </span>
+            <p>프로젝트 관련,Q&A 게시판입니다.</p>
+            <p>원활한 소통과 관리를 위해 꼭 회원가입 및 로그인 후 이용해 주세요.</p>
+        </div>
+    <div class="board_list_wrap">
+        <div class="board_list">
+            <div class="top">
+                <div class="num">번호</div>
+                <div class="title">제목</div>
+                <div class="writer">글쓴이</div>
+                <div class="date">작성일</div>
+                
+            </div>
+            <div id="toplist1">
+               <div id="number1" class="num">1</div>
+               <div class="title"><a id="board1" onclick="clickboard('0');">불러오는중.....</a></div>
+               <div id="user1" class="writer"></div>
+               <div id="date1" class="date"></div>
+               
+            </div>
+            <div id="toplist2">
+                <div id="number2" class="num">2</div>
+                <div class="title"><a id="board2"  onclick="clickboard('1');"></a></div>
+                <div id="user2"class="writer"></div>
+                <div id="date2" class="date"></div>
+                
+             </div>
+             <div id="toplist3">
+                <div id="number3" class="num">3</div>
+                <div class="title"><a id="board3" onclick="clickboard('2');"></a></div>
+                <div id="user3"class="writer"></div>
+                <div id="date3" class="date"></div>
+               
+             </div>
+             <div id="toplist4">
+                <div id="number4" class="num">4</div>
+                <div class="title"><a id="board4" onclick="clickboard('3');"></a></div>
+                <div id="user4"class="writer"></div>
+                <div id="date4" class="date"></div>
+                
+             </div>
+             <div id="toplist5">
+                <div id="number5" class="num">5</div>
+                <div class="title"><a id="board5" onclick="clickboard('4');"></a></div>
+                <div id="user5"class="writer"></div>
+                <div id="date5" class="date"></div>
+                
+             </div>
+            </div>
+        <div class="board_page">
+            <a href="#" class="bt first"><<</a>
+            <a href="#" class="bt prev"><</a>
+            <a href="" class="num on">1</a>
+            <a href="" class="num">2</a>
+            <a href="" class="num">3</a>
+            <a href="" class="num">4</a>
+            <a href="" class="num">5</a>
+            <a href="#" class="bt next">></a>
+            <a href="#" class="bt last">>></a>
+            
+        </div>
+        <div class="bt_wrap">
+            <a href="write.html" class="on">등록</a>
+        </div>
+    </div>
+    </div>
+    <script>
+        loadname();
+        loadboard();
+    </script>
+</body>
+</html>

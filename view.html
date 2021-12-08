@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="scripts/board.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <title>공지사항</title>
+</head>
+<body>
+    
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong style="color: #686037;">게시판</strong>
+            <span style="padding-left: 900px;">id:</span>
+            <span class="user_name" id="user_name1">로그인을 해주세요.</span>
+            <p>글 확인</p>
+        </div>
+    <div class="board_list_wrap">
+        <div class="board_view"> 
+            <div id="title" class="title">
+                글제목이 들어갑니다.
+            </div>
+            <div class="info">
+                <dl>
+                    <dt>번호</dt>
+                    <dd id="numberIN">1</dd>
+                </dl>
+                <dl>
+                    <dt>글쓴이</dt>
+                    <dd id="writer"></dd>
+                </dl>
+                <dl>
+                    <dt>작성일</dt>
+                    <dd id="date"></dd>
+                </dl>
+            </div>     
+              <div id="contents" class="cont">
+                 불러오는중....
+              </div> 
+            </div>        
+          
+        <div class="bt_wrap">
+            <a href="board.html" class="on">목록</a>
+            
+            
+        </div>
+    </div>
+    </div>
+    <script>
+        enterboard();
+        loadname();
+    </script>
+</body>
+</html>
