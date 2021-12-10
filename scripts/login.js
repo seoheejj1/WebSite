@@ -10,7 +10,7 @@ function login()
     },
     success :  function(resp){
             alert(resp);
-            if (resp == '로그인 성공')
+            if (resp == '로그인 성공...이동중입니다.')
             {
               localStorage.setItem('name',document.getElementById('id').value);
               location.href = 'board.html';
