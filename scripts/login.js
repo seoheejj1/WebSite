@@ -1,5 +1,5 @@
 function login()
-{   console.log("a");
+{  
     $.ajax({
     type: "POST",
     url: "https://script.google.com/macros/s/AKfycbwg_Fqvwshb0X6dWmPdGfZEiVvL-4TTbSgLH-kJZc1dhRDue7XSDwCNp-FTPI1mTfVG/exec",
@@ -22,7 +22,6 @@ function login()
 
 function register()
 { 
-    console.log("a");
     $.ajax({
     type: "POST",
     url: "https://script.google.com/macros/s/AKfycbwg_Fqvwshb0X6dWmPdGfZEiVvL-4TTbSgLH-kJZc1dhRDue7XSDwCNp-FTPI1mTfVG/exec",
