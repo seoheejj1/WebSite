@@ -2,7 +2,7 @@ function login()
 {   console.log("a");
     $.ajax({
     type: "POST",
-    url: "https://script.google.com/macros/s/AKfycbwXYS-iGP31pGNhVXDHEv22xdUOWylECZp5D4EyOCvWMAoLBij2bW6fJjkowHnmq36N/exec",
+    url: "https://script.google.com/macros/s/AKfycbwg_Fqvwshb0X6dWmPdGfZEiVvL-4TTbSgLH-kJZc1dhRDue7XSDwCNp-FTPI1mTfVG/exec",
     data: {
       "type": "login",
       "id": document.getElementById('id').value,
@@ -25,7 +25,7 @@ function register()
     console.log("a");
     $.ajax({
     type: "POST",
-    url: "https://script.google.com/macros/s/AKfycbwXYS-iGP31pGNhVXDHEv22xdUOWylECZp5D4EyOCvWMAoLBij2bW6fJjkowHnmq36N/exec",
+    url: "https://script.google.com/macros/s/AKfycbwg_Fqvwshb0X6dWmPdGfZEiVvL-4TTbSgLH-kJZc1dhRDue7XSDwCNp-FTPI1mTfVG/exec",
     data: {
       "type": "register",
       "id": document.getElementById('id').value,
