@@ -1,4 +1,4 @@
-URL = "https://script.google.com/macros/s/AKfycbwXYS-iGP31pGNhVXDHEv22xdUOWylECZp5D4EyOCvWMAoLBij2bW6fJjkowHnmq36N/exec";
+URL = "https://script.google.com/macros/s/AKfycbwg_Fqvwshb0X6dWmPdGfZEiVvL-4TTbSgLH-kJZc1dhRDue7XSDwCNp-FTPI1mTfVG/exec";
 var uniquenumber= [0,0,0,0,0];
 var boardlist = ['board1','board2','board3','board4','board5'];
 var numberlist = ['number1','number2','number3','number4','number5'];
